@@ -41,6 +41,7 @@ function App() {
   }
 
   const handleSelect = (e) => {
+    setSelected(e.target.value)
     getWordsLocally(e.target.value)
   }
 
@@ -53,12 +54,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Dropdown options={letterHistory} onSelect={handleSelect} />
-        <hr />
         <form onSubmit={handleSubmit}>
-          <input value={search} onChange={(e) => setSearch(e.target.value)} />
+          <input className="letter-input" value={search} autoFocus onChange={(e) => setSearch(e.target.value)} />
           <input type="submit" hidden />
         </form>
+        <p>History:</p>
+        <Dropdown className="history-dropdown" options={letterHistory} onSelect={handleSelect} />
         <div className="main">
           {/* <div>
             <p>History:</p>
@@ -80,7 +81,7 @@ function App() {
           </div> */}
           <div>
             {words.length === 0 && <p>No possible words!</p>}
-            <ul>
+            <ul className="wordlist">
               {words.map((word) => {
                 return <li className="wordlist-item" key={`word-${word}`}>{word}</li>
               })}
