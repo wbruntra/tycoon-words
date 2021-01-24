@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/tycoon-words/static/css/main.c285ce2b.chunk.css",
-    "main.js": "/tycoon-words/static/js/main.112318bf.chunk.js",
-    "main.js.map": "/tycoon-words/static/js/main.112318bf.chunk.js.map",
+    "main.css": "/tycoon-words/static/css/main.47802e4c.chunk.css",
+    "main.js": "/tycoon-words/static/js/main.be66ee80.chunk.js",
+    "main.js.map": "/tycoon-words/static/js/main.be66ee80.chunk.js.map",
     "runtime-main.js": "/tycoon-words/static/js/runtime-main.86d30629.js",
     "runtime-main.js.map": "/tycoon-words/static/js/runtime-main.86d30629.js.map",
     "static/js/2.fffa30cd.chunk.js": "/tycoon-words/static/js/2.fffa30cd.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.49f77cdf.chunk.js": "/tycoon-words/static/js/3.49f77cdf.chunk.js",
     "static/js/3.49f77cdf.chunk.js.map": "/tycoon-words/static/js/3.49f77cdf.chunk.js.map",
     "index.html": "/tycoon-words/index.html",
-    "static/css/main.c285ce2b.chunk.css.map": "/tycoon-words/static/css/main.c285ce2b.chunk.css.map",
+    "static/css/main.47802e4c.chunk.css.map": "/tycoon-words/static/css/main.47802e4c.chunk.css.map",
     "static/js/2.fffa30cd.chunk.js.LICENSE.txt": "/tycoon-words/static/js/2.fffa30cd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.86d30629.js",
     "static/js/2.fffa30cd.chunk.js",
-    "static/css/main.c285ce2b.chunk.css",
-    "static/js/main.112318bf.chunk.js"
+    "static/css/main.47802e4c.chunk.css",
+    "static/js/main.be66ee80.chunk.js"
   ]
 }
