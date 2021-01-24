@@ -1,5 +1,5 @@
 {
-  "name": "words",
+  "name": "tycoon-words",
   "version": "1.0.0",
   "main": "findAnagram.js",
   "scripts": {
