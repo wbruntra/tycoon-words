@@ -2,6 +2,7 @@
   "name": "tycoon-words",
   "version": "1.0.0",
   "main": "findAnagram.js",
+  "homepage": "https://wbruntra.github.io/tycoon-words/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "node server.js",
